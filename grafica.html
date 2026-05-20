@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portafolio ValentinaFragali</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.css"/>
 </head>
 <body>
     <div class="header">
@@ -109,23 +112,24 @@
     </p>
   </div>
  </section>
- 
+
  <div class="banner">
   <img src="img/portafolio/banner fondo.png" >
     <h1>posters</h1>
   </div>
-  <div class="destacados">
-        <div class="img-destacado">
+
+  <div class="destacados f-carousel" id="myCarousel" >
+
+        <div class="img-carrusel f-carousel__slide" >
         <img src= "img/portafolio/edicion 1.jpeg" alt="edicion estilo poster de una modelo">
         </div>
-        <div class="img-destacado">
+        <div class="img-carrusel f-carousel__slide">
         <img src= "img/portafolio/edicion 2.jpeg" alt="edicion estilo poster de una modelo">
         </div>
-        <div class="img-destacado">
+        <div class="img-carrusel f-carousel__slide">
         <img src= "img/portafolio/edicion 3.jpeg" alt="edicion estilo poster de una modelo">
         </div>
 
-        <p></p>
   </div>
 
  <div class="footer">
@@ -148,4 +152,6 @@
 </a>
   </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.umd.js"></script>
+<script src="script.js"></script>
 </body>
